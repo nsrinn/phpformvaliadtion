@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment8</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/6e4f86569d.js" crossorigin="anonymous"></script>
+</head>
+<body >
+    <!-------------------------------------------------- header section--------------------------------- -->
+    <div class="container">
+        <header class="header" >
+            <!-- <div class="heading">
+            <h1 class="logo"><i class="fa-solid fa-laptop-code"></i></h1>
+            </div> -->
+            <div class="navsection">
+                <!-- <nav class="navigation-bar"> -->
+                    <!-- <br> -->
+                    <!-- <div id="logo"> -->
+                    <h1 class="logo"><i class="fa-solid fa-laptop-code"></i></h1>
+                    <!-- </div> -->
+                    <!-- <div class="navbar"> -->
+                    <input type="checkbox" id="menu-toggle">
+                    <label for="menu-toggle" class="menu-icon"><i class="fa-solid fa-bars"></i></label>
+                    <!-- <div class="div" style="wi"></div> -->
+                    <ul class="naviagtion-list">
+                        <li><a href="">Home</a></li>
+                        <li class="dropdown" >
+                            <a href="" id="dropdown" class="dropbtn">About</a>
+                            <ul class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </ul>
+                        </li>
+                        <li><a href="">Contact</a></li>
+                    
+                        <!-- <li><a href=""><button class="nav-buttonli">Buy Now</button></a></li> -->
+                        <li><a href="" id="buynow">Buy Now</a></li>
+                    </ul>
+                <!-- </nav> -->
+                <button class="nav-button">Buy Now</button>
+            <!-- </div> -->
+            
+            </div>
+            
+        </header>
+
+        <!--------------------------- Home Section----------------------------------------------------------------------------------------- -->
+        <section class="home"  >
+            <div class="maincontent" >
+                <!-- <br><br><br><br> -->
+            
+                <!-- <img src="https://unblast.com/wp-content/uploads/2020/09/Women-Architect-Vector-Illustration.jpg" alt="image-1" class="back-img"> -->
+                <h1 class="main-heading">Introduce Your Product Quickly & Effectively</h1>
+                <p class="main-para">Lorem Ipsum is simply dummy text of the printing and typesetting hen an unknown printer took a galley of type and scrambled it to make a type specimen b<br> <br>d dupublishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <button class="purchase-btn" >Purchase UI Kit</button>
+                <button class="learn-btn">Learn More</button>
+            </div>
+        </section>
+
+        <!-- --------------------------Section 2---------------------------------------------------------------- -->
+        <section >
+        <div class="section2">
+                <div class="sec2-div1">
+                    <div class="div1-part1">
+                        <h1 class="div1-h1">Light,Fast & Powerful</h1>
+                        <p class="div1-p">Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen hen an unknown printer took a galley of type and scrambled it to make a type specimen. <br> <br> hen an unknown printer took a galley of type and dupublishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                    <div class="div2">
+                        <div class="div-part2-1">
+                           <img src="https://fhfnzp.sbs/img/icon1.svg" alt="">
+                            <h4>Title Goes Here</h4>
+                            <p>Lorem Ipsum is simply dummy specimen.simply dummy text of the printing and typesetting</p>
+                        </div>
+
+                        <div class="div-part2-2">
+                            <img src="https://fhfnzp.sbs/img/icon1.svg" alt="">
+                            <h4>Title Goes Here</h4>
+                            <p>Lorem Ipsum is simply dummy specimen.simply dummy text of the printing and typesetting </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sec2-div2" >
+                    <img src="https://unblast.com/wp-content/uploads/2020/09/Tailor-Vector-Illustration.jpg" alt="sec2-img" class="sec2-img">
+                </div>
+            </div>
+        </section>
+        <!-- -------------------------------------------------------section3------------------------------------- -->
+        <section class="section3" >
+        
+            <div class="sec-div2">
+                <img src="https://unblast.com/wp-content/uploads/2020/10/Hair-Salon-Vector-Illustration-1.jpg" alt="sec3-img" class="sec3-img">
+            </div>
+            <div class="sec-div1">
+                <h1 class="sec-h1">Light,Fast & Powerful</h1>
+                <p class="sec-p">Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen hen an unknown printer took a galley of type and scrambled it to make a type specimen. <br> <br> hen an unknown printer took a galley of type and dupublishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </section>
+    <!-- ------------------------------------------------------section4------------------------------------------------- -->
+
+        <section class="section4" >
+        
+            <div class="sec-div2">
+                <img src="https://unblast.com/wp-content/uploads/2022/11/Girl-on-Kick-Scooter-Illustration.jpg" alt="sec2-img" class="sec3-img">
+            </div>
+            <div class="sec-div1">
+                <h1 class="sec-h1">Light,Fast & Powerful</h1>
+                <p class="sec-p">Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen hen an unknown printer took a galley of type and scrambled it to make a type specimen. <br> <br> hen an unknown printer took a galley of type and dupublishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </section>
+    
+    <!-----------------------------------------------------------section5--------------------------------------------  -->
+    <section class="section5" >
+        
+        <div class="sec-div2">
+            <img src="https://unblast.com/wp-content/uploads/2022/11/Going-on-a-Picnic-Illustration.jpg" alt="sec2-img" class="sec3-img">
+        </div>
+        <div class="sec-div1">
+            <h1 class="sec-h1">Light,Fast & Powerful</h1>
+            <p class="sec-p">Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen hen an unknown printer took a galley of type and scrambled it to make a type specimen. <br> <br> hen an unknown printer took a galley of type and dupublishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <button class="sec5-btn" >Purchase Now</button>
+        </div>
+    </section>
+
+    <!-------------------------------------------------------------section6------------------------------------------------------------------- -->
+    <footer >
+        <canvas >
+        </canvas>
+        
+        <div class="foot-div"> 
+                <div class="div-h2">
+                    <h2 class="my-custom">A Price To Suit Everyone</h2>
+                </div>
+                <p class="foot-p1">Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen hen an unknown printer took a galley of type</p>
+                <h1>$40</h1>
+                <p class="foot-p2">UI Design Kit</p>
+                <p class="foot-p3">See,One Price.Simple</p>
+                <div class="but">
+                    <button class="foot-btn" >Purchase Now</button>
+                </div>
+                
+        </div>
+        <div class="foot-table">
+            <!-- <tbody>
+            <tr>
+                <td style="width: 33%;">
+                    <p>&copy;2023 Your Compnay</p>
+                </td>
+                <td>
+                    <h4>Landing</h4>
+                </td>
+                <td>
+                    <button class="foot-btn" >Purchase Now</button>
+                </td>
+            </tr>
+            <tr>
+                <td style="width:50%">
+                    <ul class="naviagtion-list">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </td>
+                <td style="width:50%">
+                    <td colspan="2"> <div class="footer">
+                        <i class="fa-brands fa-facebook footicon"></i>
+                        <i class="fa-brands fa-twitter footicon"></i>
+                        <i class="fa-brands fa-instagram footicon"></i>
+                        <i class="fa-brands fa-slack footicon"></i>
+                        </div>
+                            
+                    </td>
+                </td>
+            </tr>
+        </tbody> -->
+        <div class="foot-sec1 text">
+            <p>&copy;2023 Your Compnay</p>
+        </div>
+        <div class="foot-sec1">
+            <h4>Landing</h4>
+        </div>
+        <div class="foot-sec1">
+            <button class="btn" >Purchase Now</button>
+        </div>
+        <hr>
+        <div class="foot-sec2" >
+            <ul class="foot-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            
+        </div>
+        <div class="foot-sec3" >
+            <i class="fa-brands fa-facebook footicon"></i>
+            <i class="fa-brands fa-twitter footicon"></i>
+            <i class="fa-brands fa-instagram footicon"></i>
+            <i class="fa-brands fa-slack footicon"></i>
+        </div>
+    
+        </div>
+
+
+
+    </footer>
+</div>
+</body>
+</html>
